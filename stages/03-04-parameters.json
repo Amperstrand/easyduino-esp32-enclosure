@@ -1,0 +1,6 @@
+{"stage": "S3_S4", "executor": "operator + template",
+ "retention": "pad-and-rail (board has NO holes - boss class impossible; rails clamp both u edges over v 21..46, clear of WROOM (v<=19.8) and USB (u 9.4..19.1 at v>=40.3))",
+ "envelopes": "USB-C plug 9.5x3.5 + 0.6 clear + 12 reach [manufacturer_doc class]; rim ahead of WROOM antenna is plastic-only",
+ "debug_iterations": [
+  {"iter": 1, "failures": "seated 64.0 mm3; rim probe 0", "root_causes": "rail solid through the board band (0.8x25x1.6x2=64 arithmetic-confirmed) instead of L-profile; rim probe sampled outside the rim", "patch": "rail = wall strip + lip above board top; probe moved into rim v-band"},
+  {"iter": 2, "failures": "none", "result": "7/7 PASS deterministic"}]}

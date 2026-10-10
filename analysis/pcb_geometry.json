@@ -1,0 +1,15 @@
+{
+ "source": "Easyduino_ESP32.kicad_pcb",
+ "outline": {
+  "w": 28.4,
+  "h": 47.92,
+  "origin_kicad": [
+   131.60368,
+   69.44272000000001
+  ]
+ },
+ "thickness": 1.6,
+ "thickness_provenance": "extracted_kicad (may be bare laminate - verify with calipers/coupon stair)",
+ "mounting_holes": [],
+ "coordinate_note": "board-local (u,v) = KiCad (X-x0, Y-y0); KiCad Y grows toward v-max"
+}
