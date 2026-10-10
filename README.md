@@ -27,3 +27,12 @@ Rail-clamp feel is printer-dependent: print the case, check slide-in
 force; sand or shim the 0.8 mm lips. WROOM antenna faces the plastic
 rim (no metal nearby; RF range unmeasured — see forge MEASUREMENTS
 convention). Verify USB-C reach with a real cable boot.
+
+## 3D
+
+- Spin the assembly: [`exports/easyduino-esp32_assembly.glb`](exports/easyduino-esp32_assembly.glb) (GLB — Windows 3D Viewer, macOS
+  Preview, Blender, gltf-viewer.donmccurdy.com). STLs in
+  `output/exports/` render inline on GitHub.
+- Scored by the forge metric: **1.00 (7/7 checks)** — see
+  `Amperstrand/enclosure-forge` experiments/runs/.
+
