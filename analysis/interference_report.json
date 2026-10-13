@@ -37,7 +37,7 @@
   "pass": true,
   "value": {
    "bottom": 6415.8,
-   "lid": 3244.4
+   "lid": 3213.3
   },
   "note": "watertight B-reps, positive volume"
  },
@@ -46,7 +46,7 @@
   "pass": true,
   "value": {
    "bottom": "527371c9cc61651d",
-   "lid": "14e10702093f90fd"
+   "lid": "c814899fceed84d2"
   },
   "note": "hash-identical rebuild"
  }
